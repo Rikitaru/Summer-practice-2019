@@ -1,4 +1,4 @@
-# Summer-practice 2019
+# Summer-practice-2019
 Completed summer practice for a real project of my Department at the University
 1.	Цель работы
 Написать программу, содержащую функции или классы, позволяющие выполнить отображение в html-файле результатов работы планировщика трафиков, изначально записанных в xml-файл.
