@@ -1,0 +1,4 @@
+inputpath =  .\xml\scheduler_output.xml
+outputpath = .\html\scheduler_output.html
+Number_of_divisions_in_time = 5
+HTML was read

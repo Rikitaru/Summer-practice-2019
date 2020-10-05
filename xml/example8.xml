@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduler>
+  <message description="Таблица расписания успешно построена для узлов СТП-ИСС-14 с включенным 'Планированием'. Для моделирования один из узлов сети должен быть настроен для отправки тайм-кодов. Для доставки пакетов  в пределах макс. допустимых задержек рекомендуется в настройках трафиков задать  параметры 'Задержка перед отправкой' (параметры выведены в формате: узел/трафик - параметр):  247/1 - 0 мкс;  272/2 - 333.33 мкс ">
+    <traffic_list>
+    </traffic_list>
+    <node_list>
+    </node_list>
+    <switch_list>
+    </switch_list>
+  </message>
+  <epoch>
+    <user_settings max_epoch_duration="273000.000 us" number_of_time_slots="3" time_between_time_slots="0.000 us"/>
+    <calculated_settings epoch_duration="1000.000 us" time_slot_duration="333.333 us" window_size="2"/>
+  </epoch>
+  <node_table>
+  </node_table>
+  <time_slots>
+    <time_slot id="0" start_time="0 us"/>
+    <time_slot id="1" start_time="333.33 us"/>
+    <time_slot id="2" start_time="666.67 us"/>
+  </time_slots>
+  <table>
+    <node id="247" scheduling_table="0">
+      <position id= "0" time_unit="us" send_time="0.000000" end_time="30.840000" first_time_slot="0" last_time_slot="0">
+        <traffic_position traffic_id="1" time_unit="us" send_time="0.000000" end_time="30.840000" first_time_slot="0" last_time_slot="0" gen_time="0.000000"/>
+      </position>
+    </node>
+    <node id="272" scheduling_table="1">
+      <position id= "0" time_unit="us" send_time="333.333333" end_time="364.173333" first_time_slot="1" last_time_slot="1">
+        <traffic_position traffic_id="2" time_unit="us" send_time="333.333333" end_time="364.173333" first_time_slot="1" last_time_slot="1" gen_time="333.333333"/>
+      </position>
+    </node>
+  </table>
+</scheduler>

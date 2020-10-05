@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv='X-UA-Compatible' content='IE=9'>
+<meta http-equiv='content-type' content='text/html;charset=utf-8'>
+<meta http-equiv='content-language' content='ru'>
+<script src = 'jquery-3.4.1.min.js'></script>
+<script src = 'opening.js'></script>
+<script src = 'colorpicker.min.js'></script>
+<script src = 'new.js'></script>
+<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+</head>
+<html>
+	<p> Сообщение: Расписание юлаблабла не удалось. Рекомендуется 1) не использовать очередность в группе(-ах), 2) уменьшить параметр 'Точность вычислений' (время вычислений может увеличиться), 3) увеличить макс. количество временных интервалов, 4) увеличить макс. допустимое время, 5) уменьшить размеры пакетов, 6) увеличить периоды выдачи пакетов, либо 7) изменить маршруты. Ниже представлена промежуточная таблица расписания. В трафик(-и), отмеченные '*', рекомендуется внести корректировки в первую очередь. </p>
+	<ul>
+		Трафики для корректировки:
+		<content>
+			<ul>ID - 7, Узел-отправитель - 247 Худшее время доставки - 122.96 мкс, Макс. задержка - 58 мкс, Период - 4000 мкс *<br></ul>
+			<ul>ID - 8, Узел-отправитель - 250 Худшее время доставки - 140.92 мкс, Макс. задержка - 40 мкс, Период - 4000 мкс *<br></ul>
+			<ul>ID - 9, Узел-отправитель - 253 Худшее время доставки - 138.04 мкс, Макс. задержка - 40 мкс, Период - 10000 мкс *<br></ul>
+			<ul>ID - 11, Узел-отправитель - 247 Худшее время доставки - 132.56 мкс, Макс. задержка - 58 мкс, Период - 2000 мкс *<br></ul>
+		</content>
+	</ul>
+ 	<ul>
+		Узлы для корректировки:
+		<content>
+		</content>
+	</ul>
+	<ul>
+		Коммутаторы для корректировки:
+		<content>
+		</content>
+	</ul>
+<p>Заданные пользователем параметры:</p>
+<ul>Максимальная длительность эпохи – 1024000.000 мкс </ul>
+<ul>Количество временных интервалов – 20</ul>
+ <ul>Шаг времени между временными интервалами  – 0.000  мкс </ul>
+<p>Результаты:</p>
+<ul>Длительность эпохи с учетом шага времени между временными интервалами – 20000.000  мкс </ul>
+ <ul>Длительность временного интервала с учетом шага времени между временными интервалами – 1000.000  мкс </ul>
+ <ul>Окно ожидания прихода тайм-кода – 2</ul>
+<p><ul>Таблица расписания:</ul></p>
+<table border='1' cellspacing='0'>
+<thead>
+	<tr>
+		<th>ID узлов</th>
+		<th>ID Трафиков</th>
+		<th colspan='105'>0</th>
+		<th colspan='105'>1</th>
+		<th colspan='105'>2</th>
+		<th colspan='105'>3</th>
+		<th colspan='105'>4</th>
+		<th colspan='105'>5</th>
+		<th colspan='105'>6</th>
+		<th colspan='105'>7</th>
+		<th colspan='105'>8</th>
+		<th colspan='105'>9</th>
+		<th colspan='105'>10</th>
+		<th colspan='105'>11</th>
+		<th colspan='105'>12</th>
+		<th colspan='105'>13</th>
+		<th colspan='105'>14</th>
+		<th colspan='105'>15</th>
+		<th colspan='105'>16</th>
+		<th colspan='105'>17</th>
+		<th colspan='105'>18</th>
+		<th colspan='105'>19</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th class='FalseCorrection'>247</th>
+		<th align='left' class='FalseCorrection'> <label for='n1'> 7 11 </label>
+			<input type = 'checkbox' name = '1' id = 'n1' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left' class='FalseCorrection'>7</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 17.960000' class = 'Gen' 	colspan = '2' ></td>
+		<td title = 'Время отправки 17.960000&#013;Время доставки 57.440000' class = 'Busy1 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 4000.000000&#013;Время отправки 4017.960000' class = 'Gen' 	colspan = '2' ></td>
+		<td title = 'Время отправки 4017.960000&#013;Время доставки 4057.440000' class = 'Busy1 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 8000.000000&#013;Время отправки 8017.960000' class = 'Gen' 	colspan = '2' ></td>
+		<td title = 'Время отправки 8017.960000&#013;Время доставки 8057.440000' class = 'Busy1 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 12000.000000&#013;Время отправки 12017.960000' class = 'Gen' 	colspan = '2' ></td>
+		<td title = 'Время отправки 12017.960000&#013;Время доставки 12057.440000' class = 'Busy1 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 16000.000000&#013;Время отправки 16017.960000' class = 'Gen' 	colspan = '2' ></td>
+		<td title = 'Время отправки 16017.960000&#013;Время доставки 16057.440000' class = 'Busy1 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+	<tr>
+		<td></td>
+		<th align='left' class='FalseCorrection'>11</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 0.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 0.000000&#013;Время доставки 53.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 2000.000000&#013;Время отправки 2000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 2000.000000&#013;Время доставки 2053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 4000.000000&#013;Время отправки 4000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 4000.000000&#013;Время доставки 4053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 6000.000000&#013;Время отправки 6000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 6000.000000&#013;Время доставки 6053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 8000.000000&#013;Время отправки 8000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 8000.000000&#013;Время доставки 8053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 10000.000000&#013;Время отправки 10000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 10000.000000&#013;Время доставки 10053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 12000.000000&#013;Время отправки 12000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 12000.000000&#013;Время доставки 12053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 14000.000000&#013;Время отправки 14000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 14000.000000&#013;Время доставки 14053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 16000.000000&#013;Время отправки 16000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 16000.000000&#013;Время доставки 16053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 18000.000000&#013;Время отправки 18000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 18000.000000&#013;Время доставки 18053.880000' class = 'Busy1 False' 	colspan = '6' ></td>
+		<td class = 'Empty' colspan = '98'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<tbody>
+	<tr>
+		<th class='FalseCorrection'>250</th>
+		<th align='left' class='FalseCorrection'> <label for='n2'> 8 </label>
+			<input type = 'checkbox' name = '2' id = 'n2' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy2' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy2' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy2' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy2' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy2' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left' class='FalseCorrection'>8</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 0.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 0.000000&#013;Время доставки 39.480000' class = 'Busy2 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '99'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 4000.000000&#013;Время отправки 4000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 4000.000000&#013;Время доставки 4039.480000' class = 'Busy2 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '99'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 8000.000000&#013;Время отправки 8000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 8000.000000&#013;Время доставки 8039.480000' class = 'Busy2 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '99'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 12000.000000&#013;Время отправки 12000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 12000.000000&#013;Время доставки 12039.480000' class = 'Busy2 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '99'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 16000.000000&#013;Время отправки 16000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 16000.000000&#013;Время доставки 16039.480000' class = 'Busy2 False' 	colspan = '5' ></td>
+		<td class = 'Empty' colspan = '99'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<tbody>
+	<tr>
+		<th class='FalseCorrection'>253</th>
+		<th align='left' class='FalseCorrection'> <label for='n3'> 9 </label>
+			<input type = 'checkbox' name = '3' id = 'n3' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy3' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy3' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left' class='FalseCorrection'>9</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 0.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 0.000000&#013;Время доставки 30.840000' class = 'Busy3 False' 	colspan = '4' ></td>
+		<td class = 'Empty' colspan = '100'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 10000.000000&#013;Время отправки 10000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 10000.000000&#013;Время доставки 10030.840000' class = 'Busy3 False' 	colspan = '4' ></td>
+		<td class = 'Empty' colspan = '100'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<tbody>
+	<tr>
+		<th>256</th>
+		<th align='left'> <label for='n4'> 10 </label>
+			<input type = 'checkbox' name = '4' id = 'n4' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy4' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy4' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy4' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy4' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy4' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left'>10</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 0.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 0.000000&#013;Время доставки 27.960000' class = 'Busy4' 	colspan = '3' ></td>
+		<td class = 'Empty' colspan = '101'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 4000.000000&#013;Время отправки 4000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 4000.000000&#013;Время доставки 4027.960000' class = 'Busy4' 	colspan = '3' ></td>
+		<td class = 'Empty' colspan = '101'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 8000.000000&#013;Время отправки 8000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 8000.000000&#013;Время доставки 8027.960000' class = 'Busy4' 	colspan = '3' ></td>
+		<td class = 'Empty' colspan = '101'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 12000.000000&#013;Время отправки 12000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 12000.000000&#013;Время доставки 12027.960000' class = 'Busy4' 	colspan = '3' ></td>
+		<td class = 'Empty' colspan = '101'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 16000.000000&#013;Время отправки 16000.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 16000.000000&#013;Время доставки 16027.960000' class = 'Busy4' 	colspan = '3' ></td>
+		<td class = 'Empty' colspan = '101'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+</tbody>
+
+<tfood>
+<tr>
+	<th colspan='2'>Время, мкс</th>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>0____</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>200__</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>200__</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>200__</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>200__</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>1000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>1200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>1200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>1200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>1200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>2000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>2200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>2200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>2200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>2200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>3000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>3200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>3200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>3200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>3200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>4000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>4200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>4200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>4200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>4200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>5000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>5200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>5200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>5200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>5200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>6000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>6200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>6200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>6200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>6200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>7000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>7200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>7200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>7200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>7200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>8000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>8200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>8200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>8200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>8200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>9000_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>9200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>9200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>9200_</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>9200_</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>10000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>10200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>10200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>10200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>10200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>11000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>11200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>11200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>11200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>11200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>12000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>12200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>12200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>12200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>12200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>13000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>13200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>13200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>13200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>13200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>14000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>14200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>14200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>14200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>14200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>15000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>15200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>15200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>15200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>15200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>16000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>16200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>16200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>16200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>16200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>17000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>17200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>17200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>17200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>17200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>18000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>18200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>18200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>18200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>18200</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>19000</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>19200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>19200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>19200</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>19200</p></td>
+	</tr>
+</tfoot>
+</table>
+
+</table><table>
+	<tr>
+		<th>Для смены цвета расписания используйте палитру<label for = 'maga'></label>
+			<input type = 'checkbox' name = 'maga' id = 'maga' data-toggle = 'toggle'>
+		</th>
+	</tr>
+<tbody class = 'hide'>
+		<tr>
+			<td>247</td>
+			<td> <input id ='1' type='radio' name='radio'></td>
+		</tr>
+		<tr>
+			<td>250</td>
+			<td> <input id ='2' type='radio' name='radio'></td>
+		</tr>
+		<tr>
+			<td>253</td>
+			<td> <input id ='3' type='radio' name='radio'></td>
+		</tr>
+		<tr>
+			<td>256</td>
+			<td> <input id ='4' type='radio' name='radio'></td>
+		</tr>	<td>
+		<div id='color-picker' class='cp-default'>
+			<div class='picker-wrapper'>
+				<div id = 'picker' class = 'picker'></div>
+				<div id = 'picker-indicator' class = 'picker-indicator'></div>
+			</div>
+			<div class = 'pcr-wrapper'>
+				<div id = 'pcr' class = 'pcr'></div>
+				<div id = 'pcr-indicator' class = 'pcr-indicator'></div>
+			</div>
+			<ul id='color-values'>
+				<li><label>RGB:</label><span id = 'rgb'></span></li>
+				<li><label>HSV:</label><span id = 'hsv'></span></li>
+				<li><label>HEX:</label><span id = 'hex'></span></li>
+				<li><div id = 'pcr_bg'></div></li>
+			</ul>
+		</div>
+<script src = 'new.js'></script>
+</tbody>
+</table></html>

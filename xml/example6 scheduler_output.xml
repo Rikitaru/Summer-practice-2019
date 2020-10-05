@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduler>
+  <message description="Расписание построить не удалось. Время передачи трафика(-ов) превышает длительность эпохи. Рекомендуется 1) добавить/изменить очередность в группе(-ах), 2) увеличить макс. количество временных интервалов, 3) увеличить макс. допустимое время, 4) уменьшить размеры пакетов, 5) увеличить периоды выдачи пакетов, либо 6) изменить маршруты. Ниже представлена промежуточная таблица расписания ">
+    <traffic_list>
+      <traffic id="6" source_node_id="265" text=""/>
+    </traffic_list>
+    <node_list>
+    </node_list>
+    <switch_list>
+    </switch_list>
+  </message>
+  <epoch>
+    <user_settings max_epoch_duration="1000000.000 us" number_of_time_slots="16" time_between_time_slots="0.000 us"/>
+    <calculated_settings epoch_duration="500000.000 us" time_slot_duration="31250.000 us" window_size="2"/>
+  </epoch>
+  <node_table>
+  </node_table>
+  <time_slots>
+    <time_slot id="0" start_time="0 us"/>
+    <time_slot id="1" start_time="31250 us"/>
+    <time_slot id="2" start_time="62500 us"/>
+    <time_slot id="3" start_time="93750 us"/>
+    <time_slot id="4" start_time="125000 us"/>
+    <time_slot id="5" start_time="156250 us"/>
+    <time_slot id="6" start_time="187500 us"/>
+    <time_slot id="7" start_time="218750 us"/>
+    <time_slot id="8" start_time="250000 us"/>
+    <time_slot id="9" start_time="281250 us"/>
+    <time_slot id="10" start_time="312500 us"/>
+    <time_slot id="11" start_time="343750 us"/>
+    <time_slot id="12" start_time="375000 us"/>
+    <time_slot id="13" start_time="406250 us"/>
+    <time_slot id="14" start_time="437500 us"/>
+    <time_slot id="15" start_time="468750 us"/>
+  </time_slots>
+  <table>
+    <node id="245" scheduling_table="3 11">
+      <position id= "0" time_unit="us" send_time="93750.000000" end_time="96867.000000" first_time_slot="3" last_time_slot="3">
+        <traffic_position traffic_id="4" time_unit="us" send_time="93750.000000" end_time="96867.000000" first_time_slot="3" last_time_slot="3" gen_time="93750.000000"/>
+      </position>
+      <position id= "1" time_unit="us" send_time="343750.000000" end_time="346867.000000" first_time_slot="11" last_time_slot="11">
+        <traffic_position traffic_id="4" time_unit="us" send_time="343750.000000" end_time="346867.000000" first_time_slot="11" last_time_slot="11" gen_time="343750.000000"/>
+      </position>
+    </node>
+    <node id="250" scheduling_table="0 3 6 9 12">
+      <position id= "0" time_unit="us" send_time="0.000000" end_time="813.000000" first_time_slot="0" last_time_slot="0">
+        <traffic_position traffic_id="1" time_unit="us" send_time="0.000000" end_time="813.000000" first_time_slot="0" last_time_slot="0" gen_time="0.000000"/>
+      </position>
+      <position id= "1" time_unit="us" send_time="100000.000000" end_time="100813.000000" first_time_slot="3" last_time_slot="3">
+        <traffic_position traffic_id="1" time_unit="us" send_time="100000.000000" end_time="100813.000000" first_time_slot="3" last_time_slot="3" gen_time="100000.000000"/>
+      </position>
+      <position id= "2" time_unit="us" send_time="200000.000000" end_time="200813.000000" first_time_slot="6" last_time_slot="6">
+        <traffic_position traffic_id="1" time_unit="us" send_time="200000.000000" end_time="200813.000000" first_time_slot="6" last_time_slot="6" gen_time="200000.000000"/>
+      </position>
+      <position id= "3" time_unit="us" send_time="300000.000000" end_time="300813.000000" first_time_slot="9" last_time_slot="9">
+        <traffic_position traffic_id="1" time_unit="us" send_time="300000.000000" end_time="300813.000000" first_time_slot="9" last_time_slot="9" gen_time="300000.000000"/>
+      </position>
+      <position id= "4" time_unit="us" send_time="400000.000000" end_time="400813.000000" first_time_slot="12" last_time_slot="12">
+        <traffic_position traffic_id="1" time_unit="us" send_time="400000.000000" end_time="400813.000000" first_time_slot="12" last_time_slot="12" gen_time="400000.000000"/>
+      </position>
+    </node>
+    <node id="255" scheduling_table="1">
+      <position id= "0" time_unit="us" send_time="31250.000000" end_time="37439.000000" first_time_slot="1" last_time_slot="1">
+        <traffic_position traffic_id="2" time_unit="us" send_time="31250.000000" end_time="37439.000000" first_time_slot="1" last_time_slot="1" gen_time="31250.000000"/>
+      </position>
+    </node>
+    <node id="260" scheduling_table="2 5 8 11 14">
+      <position id= "0" time_unit="us" send_time="62500.000000" end_time="64081.000000" first_time_slot="2" last_time_slot="2">
+        <traffic_position traffic_id="3" time_unit="us" send_time="62500.000000" end_time="64081.000000" first_time_slot="2" last_time_slot="2" gen_time="62500.000000"/>
+      </position>
+      <position id= "1" time_unit="us" send_time="162500.000000" end_time="164081.000000" first_time_slot="5" last_time_slot="5">
+        <traffic_position traffic_id="3" time_unit="us" send_time="162500.000000" end_time="164081.000000" first_time_slot="5" last_time_slot="5" gen_time="162500.000000"/>
+      </position>
+      <position id= "2" time_unit="us" send_time="262500.000000" end_time="264081.000000" first_time_slot="8" last_time_slot="8">
+        <traffic_position traffic_id="3" time_unit="us" send_time="262500.000000" end_time="264081.000000" first_time_slot="8" last_time_slot="8" gen_time="262500.000000"/>
+      </position>
+      <position id= "3" time_unit="us" send_time="362500.000000" end_time="364081.000000" first_time_slot="11" last_time_slot="11">
+        <traffic_position traffic_id="3" time_unit="us" send_time="362500.000000" end_time="364081.000000" first_time_slot="11" last_time_slot="11" gen_time="362500.000000"/>
+      </position>
+      <position id= "4" time_unit="us" send_time="462500.000000" end_time="464081.000000" first_time_slot="14" last_time_slot="14">
+        <traffic_position traffic_id="3" time_unit="us" send_time="462500.000000" end_time="464081.000000" first_time_slot="14" last_time_slot="14" gen_time="462500.000000"/>
+      </position>
+    </node>
+    <node id="265" scheduling_table="0 1 3 4 5 6 7 8 9 10 11 12 13 14 15">
+      <position id= "0" time_unit="us" send_time="19.000000" end_time="95.000000" first_time_slot="0" last_time_slot="0">
+        <traffic_position traffic_id="7" time_unit="us" send_time="19.000000" end_time="76.000000" first_time_slot="0" last_time_slot="0" gen_time="0.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="38.000000" end_time="95.000000" first_time_slot="0" last_time_slot="0" gen_time="0.000000"/>
+      </position>
+      <position id= "1" time_unit="us" send_time="50019.000000" end_time="50095.000000" first_time_slot="1" last_time_slot="1">
+        <traffic_position traffic_id="7" time_unit="us" send_time="50019.000000" end_time="50076.000000" first_time_slot="1" last_time_slot="1" gen_time="50000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="50038.000000" end_time="50095.000000" first_time_slot="1" last_time_slot="1" gen_time="50000.000000"/>
+      </position>
+      <position id= "2" time_unit="us" send_time="100019.000000" end_time="100095.000000" first_time_slot="3" last_time_slot="3">
+        <traffic_position traffic_id="7" time_unit="us" send_time="100019.000000" end_time="100076.000000" first_time_slot="3" last_time_slot="3" gen_time="100000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="100038.000000" end_time="100095.000000" first_time_slot="3" last_time_slot="3" gen_time="100000.000000"/>
+      </position>
+      <position id= "3" time_unit="us" send_time="150019.000000" end_time="150095.000000" first_time_slot="4" last_time_slot="4">
+        <traffic_position traffic_id="7" time_unit="us" send_time="150019.000000" end_time="150076.000000" first_time_slot="4" last_time_slot="4" gen_time="150000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="150038.000000" end_time="150095.000000" first_time_slot="4" last_time_slot="4" gen_time="150000.000000"/>
+      </position>
+      <position id= "4" time_unit="us" send_time="200019.000000" end_time="200095.000000" first_time_slot="6" last_time_slot="6">
+        <traffic_position traffic_id="7" time_unit="us" send_time="200019.000000" end_time="200076.000000" first_time_slot="6" last_time_slot="6" gen_time="200000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="200038.000000" end_time="200095.000000" first_time_slot="6" last_time_slot="6" gen_time="200000.000000"/>
+      </position>
+      <position id= "5" time_unit="us" send_time="250019.000000" end_time="250095.000000" first_time_slot="8" last_time_slot="8">
+        <traffic_position traffic_id="7" time_unit="us" send_time="250019.000000" end_time="250076.000000" first_time_slot="8" last_time_slot="8" gen_time="250000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="250038.000000" end_time="250095.000000" first_time_slot="8" last_time_slot="8" gen_time="250000.000000"/>
+      </position>
+      <position id= "6" time_unit="us" send_time="300019.000000" end_time="300095.000000" first_time_slot="9" last_time_slot="9">
+        <traffic_position traffic_id="7" time_unit="us" send_time="300019.000000" end_time="300076.000000" first_time_slot="9" last_time_slot="9" gen_time="300000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="300038.000000" end_time="300095.000000" first_time_slot="9" last_time_slot="9" gen_time="300000.000000"/>
+      </position>
+      <position id= "7" time_unit="us" send_time="350019.000000" end_time="350095.000000" first_time_slot="11" last_time_slot="11">
+        <traffic_position traffic_id="7" time_unit="us" send_time="350019.000000" end_time="350076.000000" first_time_slot="11" last_time_slot="11" gen_time="350000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="350038.000000" end_time="350095.000000" first_time_slot="11" last_time_slot="11" gen_time="350000.000000"/>
+      </position>
+      <position id= "8" time_unit="us" send_time="400019.000000" end_time="400095.000000" first_time_slot="12" last_time_slot="12">
+        <traffic_position traffic_id="7" time_unit="us" send_time="400019.000000" end_time="400076.000000" first_time_slot="12" last_time_slot="12" gen_time="400000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="400038.000000" end_time="400095.000000" first_time_slot="12" last_time_slot="12" gen_time="400000.000000"/>
+      </position>
+      <position id= "9" time_unit="us" send_time="450019.000000" end_time="450095.000000" first_time_slot="14" last_time_slot="14">
+        <traffic_position traffic_id="7" time_unit="us" send_time="450019.000000" end_time="450076.000000" first_time_slot="14" last_time_slot="14" gen_time="450000.000000"/>
+        <traffic_position traffic_id="8" time_unit="us" send_time="450038.000000" end_time="450095.000000" first_time_slot="14" last_time_slot="14" gen_time="450000.000000"/>
+      </position>
+      <position id= "10" time_unit="us" send_time="125000.000000" end_time="125057.000000" first_time_slot="4" last_time_slot="4">
+        <traffic_position traffic_id="6" time_unit="us" send_time="125000.000000" end_time="125057.000000" first_time_slot="4" last_time_slot="4" gen_time="125000.000000"/>
+      </position>
+      <position id= "11" time_unit="us" send_time="175000.000000" end_time="175057.000000" first_time_slot="5" last_time_slot="5">
+        <traffic_position traffic_id="6" time_unit="us" send_time="175000.000000" end_time="175057.000000" first_time_slot="5" last_time_slot="5" gen_time="175000.000000"/>
+      </position>
+      <position id= "12" time_unit="us" send_time="225000.000000" end_time="225057.000000" first_time_slot="7" last_time_slot="7">
+        <traffic_position traffic_id="6" time_unit="us" send_time="225000.000000" end_time="225057.000000" first_time_slot="7" last_time_slot="7" gen_time="225000.000000"/>
+      </position>
+      <position id= "13" time_unit="us" send_time="275000.000000" end_time="275057.000000" first_time_slot="8" last_time_slot="8">
+        <traffic_position traffic_id="6" time_unit="us" send_time="275000.000000" end_time="275057.000000" first_time_slot="8" last_time_slot="8" gen_time="275000.000000"/>
+      </position>
+      <position id= "14" time_unit="us" send_time="325000.000000" end_time="325057.000000" first_time_slot="10" last_time_slot="10">
+        <traffic_position traffic_id="6" time_unit="us" send_time="325000.000000" end_time="325057.000000" first_time_slot="10" last_time_slot="10" gen_time="325000.000000"/>
+      </position>
+      <position id= "15" time_unit="us" send_time="375000.000000" end_time="375057.000000" first_time_slot="12" last_time_slot="12">
+        <traffic_position traffic_id="6" time_unit="us" send_time="375000.000000" end_time="375057.000000" first_time_slot="12" last_time_slot="12" gen_time="375000.000000"/>
+      </position>
+      <position id= "16" time_unit="us" send_time="425000.000000" end_time="425057.000000" first_time_slot="13" last_time_slot="13">
+        <traffic_position traffic_id="6" time_unit="us" send_time="425000.000000" end_time="425057.000000" first_time_slot="13" last_time_slot="13" gen_time="425000.000000"/>
+      </position>
+      <position id= "17" time_unit="us" send_time="475000.000000" end_time="475057.000000" first_time_slot="15" last_time_slot="15">
+        <traffic_position traffic_id="6" time_unit="us" send_time="475000.000000" end_time="475057.000000" first_time_slot="15" last_time_slot="15" gen_time="475000.000000"/>
+      </position>
+      <position id= "18" time_unit="us" send_time="525000.000000" end_time="525057.000000" first_time_slot="12" last_time_slot="12">
+        <traffic_position traffic_id="6" time_unit="us" send_time="525000.000000" end_time="525057.000000" first_time_slot="12" last_time_slot="12" gen_time="525000.000000"/>
+      </position>
+      <position id= "19" time_unit="us" send_time="575000.000000" end_time="575057.000000" first_time_slot="14" last_time_slot="14">
+        <traffic_position traffic_id="6" time_unit="us" send_time="575000.000000" end_time="575057.000000" first_time_slot="14" last_time_slot="14" gen_time="575000.000000"/>
+      </position>
+    </node>
+  </table>
+</scheduler>

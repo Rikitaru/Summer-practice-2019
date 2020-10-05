@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv='X-UA-Compatible' content='IE=9'>
+<meta http-equiv='content-type' content='text/html;charset=utf-8'>
+<meta http-equiv='content-language' content='ru'>
+<script src = 'jquery-3.4.1.min.js'></script>
+<script src = 'opening.js'></script>
+<script src = 'colorpicker.min.js'></script>
+<script src = 'new.js'></script>
+<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+</head>
+<html>
+	<p> Сообщение: Мин. время доставкиМин. блабла передачи пакетов для трафика(-ов) не укладывается в макс. допустимое, рекомендуется 1) увеличить макс. допустимое время, 2) уменьшить размер пакета, либо 3) изменить маршруты </p>
+	<ul>
+		Трафики для корректировки:
+		<content>
+			<ul>ID - 7, Узел-отправитель - 247 Мин. время доставки - 39.48 мкс, Макс. задержка - 0 мкс<br></ul>
+			<ul>ID - 8, Узел-отправитель - 260 Мин. время доставки - 39.48 мкс, Макс. задержка - 0 мкс<br></ul>
+			<ul>ID - 9, Узел-отправитель - 253 Мин. время доставки - 30.84 мкс, Макс. задержка - 0 мкс<br></ul>
+			<ul>ID - 10, Узел-отправитель - 256 Мин. время доставки - 27.96 мкс, Макс. задержка - 0 мкс<br></ul>
+			<ul>ID - 12, Узел-отправитель - 253 Худшее время доставки - 138.04 мкс, Макс. задержка - 40 мкс, Период - 10000 мкс *<br></ul>
+			<ul>ID - 11, Узел-отправитель - 200 Худшее время доставки - 132.56 мкс, Макс. задержка - 58 мкс, Период - 2000 мкс *<br></ul>
+		</content>
+	</ul>
+ 	<ul>
+		Узлы для корректировки:
+		<content>
+			<ul>ID - 200<br></ul>
+			<ul>ID - 296<br></ul>
+		</content>
+	</ul>
+	<ul>
+		Коммутаторы для корректировки:
+		<content>
+			<ul>ID - 274<br></ul>
+			<ul>ID - 372<br></ul>
+		</content>
+	</ul>
+<p>Заданные пользователем параметры:</p>
+<ul>Максимальная длительность эпохи – 500000.000 мкс </ul>
+<ul>Количество временных интервалов – 5</ul>
+ <ul>Шаг времени между временными интервалами  – 0.000  мкс </ul>
+<p>Результаты:</p>
+<ul>Длительность эпохи с учетом шага времени между временными интервалами – 20000.000  мкс </ul>
+ <ul>Длительность временного интервала с учетом шага времени между временными интервалами – 1000.000  мкс </ul>
+ <ul>Окно ожидания прихода тайм-кода – 2</ul>
+<p><ul>Таблица расписания:</ul></p>
+<table border='1' cellspacing='0'>
+<thead>
+	<tr>
+		<th>ID узлов</th>
+		<th>ID Трафиков</th>
+		<th colspan='150'>0</th>
+		<th colspan='150'>1</th>
+		<th colspan='150'>2</th>
+		<th colspan='150'>3</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th class='FalseCorrection'>247</th>
+		<th align='left' class='FalseCorrection'> <label for='n1'> 0 3 9 </label>
+			<input type = 'checkbox' name = '1' id = 'n1' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy1' colspan = '150'></td>
+		<td class = 'Busy1' colspan = '150'></td>
+		<td class = 'Busy1' colspan = '150'></td>
+		<td class = 'Busy1' colspan = '150'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left'>0</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 25.000000' class = 'Gen' 	colspan = '15' ></td>
+		<td title = 'Время отправки 25.000000&#013;Время доставки 30.480000' class = 'Busy1' 	colspan = '4' ></td>
+		<td class = 'Empty' colspan = '131'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+	</tr>
+	<tr>
+		<td></td>
+		<th align='left' class='False'>3</th>
+		<td class = 'Empty' colspan = '150'></td>
+		<td title = 'Время генерации 250.000000&#013;Время отправки 260.000000' class = 'Gen' 	colspan = '6' ></td>
+		<td title = 'Время отправки 260.000000&#013;Время доставки 289.480000' class = 'Busy1' 	colspan = '18' ></td>
+		<td class = 'Empty' colspan = '126'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+	</tr>
+	<tr>
+		<td></td>
+		<th align='left' class='FalseCorrection'>9</th>
+		<td class = 'Empty' colspan = '12'></td>
+		<td title = 'Время генерации 20.000000&#013;Время отправки 50.000000' class = 'Gen' 	colspan = '18' ></td>
+		<td title = 'Время отправки 50.000000&#013;Время доставки 200.480000' class = 'Busy1 False' 	colspan = '91' ></td>
+		<td class = 'Empty' colspan = '29'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+	</tr>
+<tbody>
+	<tr>
+		<th class='FalseCorrection'>260</th>
+		<th align='left' class='FalseCorrection'> <label for='n2'> 2 8 </label>
+			<input type = 'checkbox' name = '2' id = 'n2' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy2' colspan = '150'></td>
+		<td class = 'Busy2' colspan = '150'></td>
+		<td class = 'Busy2' colspan = '150'></td>
+		<td class = 'Busy2' colspan = '150'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left'>2</th>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td title = 'Время генерации 500.000000&#013;Время отправки 500.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 500.000000&#013;Время доставки 700.480000' class = 'Busy2' 	colspan = '121' ></td>
+		<td class = 'Empty' colspan = '28'></td>
+		<td class = 'Empty' colspan = '150'></td>
+	</tr>
+	<tr>
+		<td></td>
+		<th align='left' class='FalseCorrection'>8</th>
+		<td class = 'Empty' colspan = '150'></td>
+		<td title = 'Время генерации 250.000000&#013;Время отправки 260.000000' class = 'Gen' 	colspan = '6' ></td>
+		<td title = 'Время отправки 260.000000&#013;Время доставки 289.480000' class = 'Busy2 False' 	colspan = '18' ></td>
+		<td class = 'Empty' colspan = '126'></td>
+		<td class = 'Empty' colspan = '150'></td>
+		<td class = 'Empty' colspan = '150'></td>
+	</tr>
+</tbody>
+
+<tfood>
+<tr>
+	<th colspan='2'>Время, мкс</th>
+
+		<td colspan = '30'> <p class = 'vertical' class = 'time_begin'>0  </p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>50*</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>100</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>150</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>200</p></td>
+
+		<td colspan = '30'> <p class = 'vertical' class = 'time_begin'>250</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>300</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>350</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>400</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>450</p></td>
+
+		<td colspan = '30'> <p class = 'vertical' class = 'time_begin'>500</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>550</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>600</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>650</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>700</p></td>
+
+		<td colspan = '30'> <p class = 'vertical' class = 'time_begin'>750</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>800</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>850</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>900</p></td>
+		<td colspan = '30'> <p class = 'vertical' class = 'time'>950</p></td>
+	</tr>
+</tfoot>
+</table>
+
+<table border='1' cellspacing='0'>
+	<thead>
+	<tr><th colspan = '7'>Обнаружены следующие ошибки при отображении пакетов</th> 
+	</tr>
+	<tr>
+		<th> Строка</th>
+		<th> ID узла</th>
+		<th> ID трафика</th>
+		<th> Время генерации</th>
+		<th> Время отправки</th>
+		<th> Время доставки</th>
+		<th> Причина</th>
+	</tr>
+	</thead>
+	<tr>
+		<th>37</th>
+		<th>247</th>
+		<th>3</th>
+		<th>250.000000</th>
+		<th>500.000000</th>
+		<th>1000.480000</th>
+		<th>Выход пакета за эпоху</th>
+	</tr>
+</table><table>
+	<tr>
+		<th>Для смены цвета расписания используйте палитру<label for = 'maga'></label>
+			<input type = 'checkbox' name = 'maga' id = 'maga' data-toggle = 'toggle'>
+		</th>
+	</tr>
+<tbody class = 'hide'>
+		<tr>
+			<td>247</td>
+			<td> <input id ='1' type='radio' name='radio'></td>
+		</tr>
+		<tr>
+			<td>260</td>
+			<td> <input id ='2' type='radio' name='radio'></td>
+		</tr>	<td>
+		<div id='color-picker' class='cp-default'>
+			<div class='picker-wrapper'>
+				<div id = 'picker' class = 'picker'></div>
+				<div id = 'picker-indicator' class = 'picker-indicator'></div>
+			</div>
+			<div class = 'pcr-wrapper'>
+				<div id = 'pcr' class = 'pcr'></div>
+				<div id = 'pcr-indicator' class = 'pcr-indicator'></div>
+			</div>
+			<ul id='color-values'>
+				<li><label>RGB:</label><span id = 'rgb'></span></li>
+				<li><label>HSV:</label><span id = 'hsv'></span></li>
+				<li><label>HEX:</label><span id = 'hex'></span></li>
+				<li><div id = 'pcr_bg'></div></li>
+			</ul>
+		</div>
+<script src = 'new.js'></script>
+</tbody>
+</table></html>

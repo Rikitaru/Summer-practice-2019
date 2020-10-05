@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv='X-UA-Compatible' content='IE=9'>
+<meta http-equiv='content-type' content='text/html;charset=utf-8'>
+<meta http-equiv='content-language' content='ru'>
+<script src = 'jquery-3.4.1.min.js'></script>
+<script src = 'opening.js'></script>
+<script src = 'colorpicker.min.js'></script>
+<script src = 'new.js'></script>
+<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+</head>
+<html>
+	<p> Сообщение: Таблица расписания успешно построена для узлов СТП-ИСС-14 с включенным 'Планированием'. Для моделирования один из узлов сети должен быть настроен для отправки тайм-кодов. Для доставки пакетов  в пределах макс. допустимых задержек рекомендуется в настройках трафиков задать  параметры 'Задержка перед отправкой' (параметры выведены в формате: узел/трафик - параметр):  247/1 - 0 мкс;  272/2 - 333.33 мкс </p>
+	<ul>
+		Трафики для корректировки:
+		<content>
+		</content>
+	</ul>
+ 	<ul>
+		Узлы для корректировки:
+		<content>
+		</content>
+	</ul>
+	<ul>
+		Коммутаторы для корректировки:
+		<content>
+		</content>
+	</ul>
+<p>Заданные пользователем параметры:</p>
+<ul>Максимальная длительность эпохи – 273000.000 мкс </ul>
+<ul>Количество временных интервалов – 3</ul>
+ <ul>Шаг времени между временными интервалами  – 0.000  мкс </ul>
+<p>Результаты:</p>
+<ul>Длительность эпохи с учетом шага времени между временными интервалами – 1000.000  мкс </ul>
+ <ul>Длительность временного интервала с учетом шага времени между временными интервалами – 333.333  мкс </ul>
+ <ul>Окно ожидания прихода тайм-кода – 2</ul>
+<p><ul>Таблица расписания:</ul></p>
+<table border='1' cellspacing='0'>
+<thead>
+	<tr>
+		<th>ID узлов</th>
+		<th>ID Трафиков</th>
+		<th colspan='105'>0</th>
+		<th colspan='105'>1</th>
+		<th colspan='105'>2</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th>247</th>
+		<th align='left'> <label for='n1'> 1 </label>
+			<input type = 'checkbox' name = '1' id = 'n1' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Busy1' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left'>1</th>
+		<td title = 'Время генерации 0.000000&#013;Время отправки 0.000000' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 0.000000&#013;Время доставки 30.840000' class = 'Busy1' 	colspan = '10' ></td>
+		<td class = 'Empty' colspan = '94'></td>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<tbody>
+	<tr>
+		<th>272</th>
+		<th align='left'> <label for='n2'> 2 </label>
+			<input type = 'checkbox' name = '2' id = 'n2' data-toggle = 'toggle'>
+		</th>
+		<td class = 'Empty' colspan = '105'></td>
+		<td class = 'Busy2' colspan = '105'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+<body>
+	<tbody class='hide'>
+	<tr>
+		<td></td>
+		<th align='left'>2</th>
+		<td class = 'Empty' colspan = '105'></td>
+		<td title = 'Время генерации 333.333333&#013;Время отправки 333.333333' class = 'Gen' 	colspan = '1' ></td>
+		<td title = 'Время отправки 333.333333&#013;Время доставки 364.173333' class = 'Busy2' 	colspan = '10' ></td>
+		<td class = 'Empty' colspan = '94'></td>
+		<td class = 'Empty' colspan = '105'></td>
+	</tr>
+</tbody>
+
+<tfood>
+<tr>
+	<th colspan='2'>Время, мкс</th>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>0.00__</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>66____</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>66____</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>66____</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>66____</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>333.33</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>399___</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>399___</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>399___</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>399___</p></td>
+
+		<td colspan = '21'> <p class = 'vertical' class = 'time_begin'>666.66</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>733___</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>733___</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>733___</p></td>
+		<td colspan = '21'> <p class = 'vertical' class = 'time'>733___</p></td>
+	</tr>
+</tfoot>
+</table>
+
+</table><table>
+	<tr>
+		<th>Для смены цвета расписания используйте палитру<label for = 'maga'></label>
+			<input type = 'checkbox' name = 'maga' id = 'maga' data-toggle = 'toggle'>
+		</th>
+	</tr>
+<tbody class = 'hide'>
+		<tr>
+			<td>247</td>
+			<td> <input id ='1' type='radio' name='radio'></td>
+		</tr>
+		<tr>
+			<td>272</td>
+			<td> <input id ='2' type='radio' name='radio'></td>
+		</tr>	<td>
+		<div id='color-picker' class='cp-default'>
+			<div class='picker-wrapper'>
+				<div id = 'picker' class = 'picker'></div>
+				<div id = 'picker-indicator' class = 'picker-indicator'></div>
+			</div>
+			<div class = 'pcr-wrapper'>
+				<div id = 'pcr' class = 'pcr'></div>
+				<div id = 'pcr-indicator' class = 'pcr-indicator'></div>
+			</div>
+			<ul id='color-values'>
+				<li><label>RGB:</label><span id = 'rgb'></span></li>
+				<li><label>HSV:</label><span id = 'hsv'></span></li>
+				<li><label>HEX:</label><span id = 'hex'></span></li>
+				<li><div id = 'pcr_bg'></div></li>
+			</ul>
+		</div>
+<script src = 'new.js'></script>
+</tbody>
+</table></html>
